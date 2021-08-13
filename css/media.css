@@ -1,0 +1,496 @@
+/*==================1800px=================================*/
+@media screen and (max-width: 1800px){
+	/*3D slider*/
+	.modal .swiper-button-prev{
+		left: 10px;
+	}
+	.modal .swiper-button-next{
+		right: 10px;
+	}
+	.modal .swiper-slide-active{
+		width: max-content;
+		transform: scale(1.5);
+	}
+	.modal .swiper-slide:not(.swiper-slide-active){
+		width: max-content;
+		transform: scale(0.8);
+	}
+}
+/*==================1480px=================================*/
+@media screen and (max-width: 1480px){
+	/*3D slider*/
+	.modal .swiper-slide:not(.swiper-slide-active){
+		transform: scale(0.7);
+	}
+	.modal .swiper-slide-active{
+		transform: scale(1.3);
+	}
+	.modal__header{
+		margin: 50px 0;
+	}
+	.modal__close {
+		right: 100px;
+		top: 50px;
+	}
+}
+/*==================1280px=================================*/
+@media screen and (max-width: 1280px){
+	/*3D slider*/
+	.modal .swiper-slide:not(.swiper-slide-active){
+		transform: scale(0.8);
+		width: max-content;
+	}
+	.modal .swiper-slide img{
+		object-fit: contain;
+	}
+	.modal .swiper-slide-active{
+		transform: scale(1.2);
+	}
+	.modal .swiper-wrapper{
+		padding: 70px 0;
+	}
+	.modal .swiper-slide-active img {
+		object-fit: contain;
+	}
+	.modal__close {
+		right: 50px;
+		top: 50px;
+	}
+	.modal-window{
+		padding: 0 15px 50px 15px;
+	}
+	.modal-order .modal-window{
+		padding: 0;
+	}
+}
+/*==================1200px================================*/
+@media screen and (max-width: 1200px){
+	/*КАЛЬКУЛЯТОР*/
+	.table-grid__list{
+		grid-template-columns: 187px 1fr 1fr 1fr;
+	}
+}
+/*==================992px=================================*/
+@media screen and (max-width: 991.98px){
+	/*3D slider*/
+	.modal .swiper-slide:not(.swiper-slide-active){
+		transform: scale(0.8);
+	}
+	.modal .swiper-container .swiper-wrapper,
+	.modal .swiper-container-2 .swiper-wrapper,
+	.modal .swiper-container-3 .swiper-wrapper{
+		padding: 80px 0;
+	}
+	.modal__header{
+		margin-bottom: 0;
+		margin-top: 187px;
+	}
+	.modal .swiper-pagination{
+		display: flex;
+	}
+	.modal .swiper-button-prev,
+	.modal .swiper-button-next{
+		bottom: 0;
+		top: auto;
+		height: 20px;
+	}
+	.modal .swiper-button-next{
+		background: url('../img/slides/arrow-long-right.svg') no-repeat;
+		right: 20px;
+		width: 100px;
+		bottom: -5px;
+	}
+	.modal .swiper-button-prev{
+		background: url('../img/slides/arrow-long-right.svg') no-repeat;
+		left: 20px;
+		width: 100px;
+		bottom: 5px;
+	}
+	.modal__title{
+		font-size: 45px;
+		margin: 0 0 18px;
+	}
+	.modal__subtitle{
+		font-size: 30px;
+	}
+	.modal .swiper-slide-active{
+		transform: scale(1);
+	}
+	.modal .swiper-slide:not(.swiper-slide-active){
+		transform: scale(1);
+	}
+	.modal__close {
+		position: absolute;
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 9px;
+		flex-direction: column-reverse;
+	}
+	.modal__close span{
+		margin: 18px 0 0 0;
+	}
+	/*ТИП АВТОМОБИЛЯ*/
+	.modal-type__list-item{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-top: 1px solid #1B1B1B;
+		padding: 25px 20px 21px 20px;
+	}
+	.modal-type__name,
+	.modal-type__value{
+		width: auto;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.modal-type__name{
+		font-size: 25px;
+		font-weight: 700;
+		margin: 0 0 21px 0;
+	}
+	.modal-type__value{
+		font-size: 18px;
+		font-weight: 300;
+	}
+	.modal__header--type{
+		margin-top: 201px;
+		margin-bottom: 76px;
+	}
+	.modal-type__item{
+		margin: 0 0 84px;
+	}
+	.modal-type__input{
+		width: 100%;
+	}
+	.modal__type{
+		background: var(--bg-modal);
+	}
+	/*КАЛЬКУЛЯТОР*/
+	.table-grid__list .table-grid__list-item:nth-child(3){
+		display: none;
+	}
+	.table-grid__list {
+		grid-template-columns: 125px 1fr 1fr;
+	}
+	.table-grid__content-list {
+		padding: 10px 15px 10px 15px;
+	}
+}
+/*==================767px=================================*/
+@media screen and (max-width:  767.98px){
+	/*3d slider*/
+	.modal .swiper-button-prev:hover{
+		background: url('../img/slides/arrow-long-right.svg') no-repeat;
+		width: 100px;
+	}
+	.modal .swiper-button-next:hover{
+		background: url('../img/slides/arrow-long-right.svg') no-repeat;
+		width: 100px;
+	}
+	/*ТИП АВТОМОБИЛЯ*/
+	.modal__title--type {
+		font-size: 20px;
+	}
+	.modal__subtitle--type{
+		font-size: 35px;
+	}
+	/*КАЛЬКУЛЯТОР*/
+	.table-grid__list {
+		grid-template-columns: 125px 1fr 70px;
+		align-items: center;
+	}
+	.table-grid__price{
+		transform: rotate(90deg);
+		white-space: nowrap;
+		font-size: 25px;
+	}
+	.table-grid__content{
+		min-height: 191px;
+	}
+	.table-grid__head span:nth-child(1){
+		display: none;
+	}
+	.table-grid__head span:nth-child(2){
+		display: block;
+	}
+	.calculator__title.area h3 {
+		margin: 0 0 10px 0;
+		font-size: 20px;
+	}
+	.calculator__subtitle.area {
+		font-size: 35px;
+	}
+	.calculator__steps.area {
+		margin: 63px 0 92px 0;
+	}
+	.calculator__step-title h3{
+		font-size: 35px;
+	}
+	.calculator__header{
+		margin: 0 0 42px 0;
+	}
+	.table-grid__head,
+	.table-grid__text-head{
+		font-size: 20px;
+	}
+	.table-grid__text{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.table-grid__content-list li {
+		margin: 0 0 7px 0;
+		font-size: 20px;
+	}
+	.calculator.area{
+		padding: 77px 0 54px 0;
+	}
+	.calculator-result__title{
+		font-size: 25px;
+		line-height: 35px;
+		margin: 0 0 6px 0;
+	}
+	.calculator-result__price {
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.calculator-result{
+		padding: 0 0 52px 0;
+	}
+	.calculator__footer{
+		padding: 51px 0 0 0;
+	}
+	.calculator-result__title span:nth-child(2){
+		display: block;
+	}
+	.calculator-result__title span:nth-child(1){
+		display: none;
+	}
+	.table-grid__list:nth-child(1) .table-grid__content{
+		background-color: #f9f9f9;
+	}
+	.calculator-box{
+		display: block;
+	}
+	/*Скрываем все блоки кроме первого*/
+	.table-grid__list:not(:first-child){
+		display: none;
+	}
+	.calculator__steps.area .calculator__step {
+		margin: 0 88px 0 0;
+	}
+	.calculator__steps.area .calculator__step:last-child {
+		margin: 0 0px 0 0;
+	}
+	.calculator__steps.area .calculator__step:after {
+		content: url(../img/step-arrows.svg);
+		position: absolute;
+		left: 94px;
+		top: -2px;
+	}
+	.calculator__steps.area .calculator__step:last-child:after {
+		content: none;
+	}
+	/*МОДАЛЬНОЕ ОКНО ФОРМЫ РЕГИСТРАЦИИ*/
+	.modal-form{
+		padding: 176px 28px 58px;
+	}
+	.modal-order__close{
+		flex-direction: column-reverse;
+		left: 50%;
+		right: auto;
+		transform: translateX(-50%);
+	}
+	.modal-order__close span{
+		margin: 21px 0 0 0;
+		font-size: 20px;
+	}
+	.modal-form__title{
+		padding: 0 0 15px 0;
+		margin: 0 0 53px;
+		font-size: 30px;
+	}
+	.modal-form__description{
+		font-size: 15px;
+		font-family: 'Gilroy Medium', sans-serif;
+		font-weight: 500;
+		line-height: 30px;
+		margin: 0 0 42px 0;
+	}
+	.modal-form__fields{
+		margin: 0 0 53px 0;
+	}
+	.modal-form.modal-form__thank{
+		padding: 81px 58px 85px;
+	}
+	.modal-form__title.modal-thank__title{
+		margin: 0 0 38px 0;
+	}
+	.modal-form__description.modal-thank__description{
+		margin: 0;
+	}
+	.modal-thank__logo{
+		margin: 71px 0;
+	}
+}
+/*==================580px=================================*/
+@media screen and (max-width: 579.98px){
+	/*КАЛЬКУЛЯТОР*/
+	.calculator__footer .choose-btn__wrap {
+		width: 100%;
+	}
+}
+/*==================460px=================================*/
+@media screen and (max-width: 459.98px){
+	/*МОДАЛЬНОЕ ОКНО ФОРМЫ И РЕГИСТРАЦИИ*/
+	.modal-form {
+		padding: 90px 15px 50px;
+	}
+	.modal-window-order {
+		margin: 30px 15px;
+	}
+	.modal-order__close{
+		top: 10px;
+	}
+	.modal-order__close span{
+		margin: 8px 0 0 0;
+	}
+	.modal-form__title,
+	.modal-form__description,
+	.modal-form__item:not(:last-child) {
+		margin: 0 0 20px 0;
+	}
+	.modal-form__fields {
+		margin: 0 0 40px 0
+	}
+	.modal-order__close span {
+		font-size: 18px;
+	}
+}
+/*==================420px=================================*/
+@media screen and (max-width: 419.98px){
+	/*3d slider*/
+	.modal__title{
+		font-size: 35px;
+		margin: 0 0 18px;
+	}
+	.modal__subtitle{
+		font-size: 20px;
+	}
+	.modal .swiper-container .swiper-wrapper,
+	.modal .swiper-container-2 .swiper-wrapper,
+	.modal .swiper-container-3 .swiper-wrapper{
+		padding: 40px 0;
+	}
+	.modal__header{
+		margin-top: 100px;
+	}
+	.modal__close {
+		top: -20px;
+	}
+	.modal__close span{
+		margin-top: 5px;
+	}
+	.modal .swiper-button-prev{
+		left: 0;
+	}
+	.modal .swiper-button-next{
+		right: 0;
+	}
+	.modal .swiper-pagination-current{
+		margin: 0 5px 0 0;
+		font-size: 25px;
+	}
+	.modal .swiper-pagination-total{
+		margin: 0 0px 0 5px;
+		font-size: 15px;
+	}
+	.modal .swiper-button-prev {
+		bottom: 0;
+	}
+	.modal .swiper-button-next{
+		bottom: -10px;
+	}
+	/*ТИП АВТОМОБИЛЯ*/
+	.modal__title--type {
+		font-size: 20px;
+	}
+	.modal__subtitle--type{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	/*КАЛЬКУЛЯТОР*/
+	.table-grid__list{
+		grid-template-columns: 1fr 1fr 70px;
+	}
+	.table-grid__content-list li{
+		font-size: 14px;
+		margin: 0;
+	}
+	.table-grid__text-head{
+		padding: 7px;
+	}
+	.table-grid__head, .table-grid__text-head {
+		font-size: 17px;
+	}
+	.table-grid__text {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.table-grid__price{
+		font-size: 18px;
+	}
+	.calculator__subtitle.area {
+		font-size: 25px;
+	}
+	.calculator__step-title h3 {
+		font-size: 25px;
+	}
+	.calculator.area{
+		padding: 40px 0 40px 0;
+	}
+	.calculator__steps.area {
+		margin: 50px 0 60px 0;
+	}
+	.calculator__steps.area .calculator__step {
+		margin: 0 60px 0 0;
+		font-size: 20px;
+	}
+	.calculator__steps.area .calculator__step:after {
+		content: url(../img/step-arrows.svg);
+		position: absolute;
+		left: 64px;
+		top: 0px;
+	}
+	.calculator-result__title {
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.calculator-result__price {
+		font-size: 38px;
+		line-height: 48px;
+	}
+	/*МОДАЛЬНЫЕ ОКНА РЕГИСТРАЦИИ*/
+	.modal-form.modal-form__thank {
+		padding: 50px 15px 50px;
+	}
+}
+
+/*======================MIN-WIDTH:  992px===============*/
+@media screen and (min-width: 991.98px){
+	.modal__close:hover span{
+		margin: 0 16px 0 0;
+	}
+	.modal__close:hover .modal__close-img{
+		transform: scale(0);
+	}
+	.modal__close:hover .modal__close--hover{
+		transform: scale(1) translate(-27px);
+		transform-origin: top bottom;
+		opacity: 1;
+		visibility: visible;
+	}
+}
